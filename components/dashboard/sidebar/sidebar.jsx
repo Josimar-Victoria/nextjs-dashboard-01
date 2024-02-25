@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Home() {
+function Sidebar() {
   return (
     <div>
-      <h1>Hola mundo</h1>
+    Sidebar
     </div>
   )
 }
 
-export default Home
+export default Sidebar
