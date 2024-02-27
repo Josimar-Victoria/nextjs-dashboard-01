@@ -1,3 +1,4 @@
+import Pagination from '@/components/dashboard/pagination/pagination'
 import Search from '@/components/dashboard/search/search'
 import styles from '@/components/dashboard/users/users.module.css'
 import Image from 'next/image'
@@ -58,6 +59,7 @@ function Users() {
                     </tr>
                 </tbody>
             </table>
+            <Pagination />
         </div>
     )
 }
